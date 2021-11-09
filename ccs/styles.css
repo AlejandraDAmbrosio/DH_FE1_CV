@@ -1,0 +1,96 @@
+/* === Reset === */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ### Inicio - Definiciones generales para toda la página ### */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    max-width: 120em;
+    min-width: 20em;
+}
+h1 {
+    background-color: #686867;
+    margin-bottom: 5%;
+}
+h2 {
+    background-color: #e7e6e6;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+i {
+    font-size: 2rem;
+}
+img {
+    width: 15%;
+    border-radius: 50%;
+    border:#4424d6 double thin;
+    box-shadow: 0 0 0.5em #fd5500;
+    margin-left: 42.5%;
+}
+footer {
+    margin-top: 5%;
+}
+ul>li, p{
+    padding-left: 4%;
+    line-height: 1.4rem;
+    font-weight: bolder;
+}
+
+/* ### ID ### */
+#image {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 3em;
+}
+
+/* ### Clases ### */
+.background_image {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMrHmGv_Er7NDFrIrJ101gJcArNWGBKvE-zQ&usqp=CAU");
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+.background_photo {
+    background-color: #686867;
+    padding-top: 3em;
+}
+.horizontal_spacing {
+    display: inline;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.titles {
+    font-style: italic;
+    font-weight: bolder;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.bullet {
+    display: list-items;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.line_spacing {
+    margin-bottom: 1%;
+}
+.font_color {
+    color: #fd5500;
+    text-shadow: #4424d6 0.025em 0.025em 0.025em;
+}
+
+.font_color_inverse {
+    color: #4424d6;
+    text-shadow: #fd5500 0.025em 0.025em 0.025em;
+}
